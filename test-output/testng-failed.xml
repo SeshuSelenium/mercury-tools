@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_groups]">
+  <test thread-count="5" name="Test_droups(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.realAnalist.cwcot.GmailFileUpload">
+        <methods>
+          <include name="uplosdResume"/>
+          <include name="mainPrecondition"/>
+        </methods>
+      </class> <!-- com.realAnalist.cwcot.GmailFileUpload -->
+    </classes>
+  </test> <!-- Test_droups(failed) -->
+</suite> <!-- Failed suite [Suite_groups] -->

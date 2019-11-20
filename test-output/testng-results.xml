@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55817" started-at="2019-09-24T15:32:50Z" finished-at="2019-09-24T15:33:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55817" started-at="2019-09-24T15:32:50Z" finished-at="2019-09-24T15:33:46Z">
+      <class name="com.realAnalist.cwcot.FileUpload">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.realAnalist.cwcot.FileUpload@42607a4f]" name="main" is-config="true" duration-ms="24115" started-at="2019-09-24T15:32:50Z" finished-at="2019-09-24T15:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.realAnalist.cwcot.FileUpload@42607a4f]" name="logIn" duration-ms="3209" started-at="2019-09-24T15:33:14Z" finished-at="2019-09-24T15:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="uplosdResume()[pri:1, instance:com.realAnalist.cwcot.FileUpload@42607a4f]" name="uplosdResume" duration-ms="28407" started-at="2019-09-24T15:33:17Z" finished-at="2019-09-24T15:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uplosdResume -->
+      </class> <!-- com.realAnalist.cwcot.FileUpload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
